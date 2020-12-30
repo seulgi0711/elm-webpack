@@ -1,0 +1,28 @@
+{
+  "name": "elm-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --port 3000 --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seulgi0711/elm-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seulgi0711/elm-webpack/issues"
+  },
+  "homepage": "https://github.com/seulgi0711/elm-webpack#readme",
+  "devDependencies": {
+    "elm-hot-webpack-loader": "^1.1.7",
+    "elm-webpack-loader": "^7.0.1",
+    "file-loader": "^6.2.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
